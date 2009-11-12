@@ -1,5 +1,5 @@
-/**
- @class: PomodoroController
+ï»¿/**
+ * @class: PomodoroController
  */
 var PomodoroController = function() {
   // Members:
@@ -62,7 +62,7 @@ PomodoroController.prototype = {
   },
 
   /**
-   * Pomodoro wird abgebrochen (zählt also nicht).
+   * Pomodoro wird abgebrochen (zÃ¤hlt also nicht).
    */
   onCancelPomodoro: function() {
     if (this.timerHandle) {
@@ -105,7 +105,7 @@ PomodoroController.prototype = {
         this.pomodoriCount = 1;
     }
 
-    // Nächster Durchlauf.
+    // NÃ¤chster Durchlauf.
     this.currentTimer += 1;
     if (this.currentTimer >= this.timerDurationsInMinutes.length)
       this.currentTimer = 0;
@@ -132,7 +132,7 @@ PomodoroController.prototype = {
   },
 
   /**
-   * Hilfsfunktion: Fügt eine 0 bei einstelligen Zahlen an.
+   * Hilfsfunktion: FÃ¼gt eine 0 bei einstelligen Zahlen an.
    */
   _formatLeadingZero: function(number) {
     return number < 10
