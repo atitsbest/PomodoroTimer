@@ -1,0 +1,49 @@
+body {
+    background-color: #222;
+    color: #fff;
+    padding: 1em;
+}
+
+#timer {
+    font-size: 80px;
+    font-family: monospace, Helvetica, Arial, serif;
+    float: left;
+}
+
+#timer > div {
+    display: inline;
+    padding: 0 1px;
+}
+
+#controls {
+    padding-top: 23px;
+    position: relative;
+    left: 12px;
+}
+
+#controls img {
+    cursor: pointer;
+}
+
+#controls .start {
+}
+
+#controls .cancel {
+    display: none;
+}
+
+#pomodori {
+    clear: both;
+}
+
+#pomodori > li {
+    display: none;
+    float: left;
+    list-style-type: none;
+    padding: 0 33px 0px 10px;
+}
+
+#pomodori > li > img {
+    width: 24px;
+    height: 24px;
+}
